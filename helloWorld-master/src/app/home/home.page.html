@@ -1,0 +1,59 @@
+<ion-header >
+  <ion-toolbar color="dark">
+    <ion-title color="warning" class="ion-text-center">
+      Categorias
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <ion-card color="light" routerLink="/ofertas">
+        <img src="assets/promocao.png" alt="">
+        <ion-item color="dark">
+          <ion-label class="titulo-promocao">Confira nossos produtos em promoção</ion-label>
+        </ion-item>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+      <ion-col>
+        <ion-card color="light" routerLink="/tenis">
+          <img src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h81/h5f/h00/h00/11309995950110/1004400060002U-01-BASEIMAGE-Midres.jpg" alt="">
+          <ion-item color="light">
+            <ion-label>Tênis</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card color="light" routerLink="/blusa">
+          <img src="https://images.tcdn.com.br/img/img_prod/690339/moletom_vans_classic_chili_oil_10831_1_7ee33bd9422c28ba5349b44e4486c7e4.jpg" alt="">
+          <ion-item color="light">
+            <ion-label>Blusa</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+      <ion-col>
+        <ion-card color="light" routerLink="/camisa">
+          <img src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/hd4/h78/h00/h00/10819822026782/4701701070001U-01-BASEIMAGE-Hires.jpg" alt="">
+          <ion-item color="light">
+            <ion-label>Camisa</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card color="light" routerLink="/calca">
+          <img src="https://www.lojahip.com.br/images/Produtos/Site/calca-vans-v16-slim-azul-claro-4.jpg" alt="">
+          <ion-item color="light">
+            <ion-label>Calça</ion-label>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>
